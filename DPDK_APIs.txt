@@ -1,0 +1,118 @@
+DPDK APIs:
+ rte_lcore_count
+ rte_timer_init
+ rte_lcore_id
+ rte_memcpy
+ rte_delay_us
+ rte_lcore_id
+ rte_get_timer_hz
+ rte_get_timer_cycles
+ rte_eth_set_queue_rate_limit
+ rte_cpu_to_be_32
+ rte_hash_iterate
+ rte_hash_reset
+ rte_eth_stats_get
+
+    struct rte_eth_stats stats;
+    rte_get_tsc_hz());
+    rte_eth_stats_reset
+    rte_eth_xstats_reset
+
+            RTE_ETH_FOREACH_DEV(pt_id)
+            RTE_MAX_NUMA_NODES
+            rte_mempool_free
+            rte_eal_cleanup();
+            rte_eal_remote_launch
+            rte_timer_reset
+            rte_get_timer_hz
+            rte_delay_us
+            rte_rdtsc();
+            rte_timer_manage();
+            rte_ether_addr_copy
+            rte_eal_wait_lcore(CORE_CP_TRAFFIC);
+
+        rte_eth_stats_get(PORT, &stats);
+
+	struct rte_mempool *rte_mp = NULL;
+rte_pktmbuf_pool_create
+rte_exit
+rte_strerror
+struct rte_port *port
+RTE_PMD_PARAM_UNSET
+rte_eth_dev_info_get
+rte_eth_macaddr_get
+rte_eth_dev_socket_id
+RTE_MAX
+rte_free
+rte_zmalloc
+RTE_CACHE_LINE_SIZE
+rte_lcore_is_enabled
+RTE_MAX_LCORE
+rte_lcore_to_socket_id
+rte_get_master_lcore
+    struct rte_eth_xstat *xstats;
+
+    struct rte_eth_xstat_name *xstats_names;
+    rte_eth_dev_is_valid_port
+      rte_eth_xstats_get_names
+      rte_eth_xstat_name 
+
+    rte_eth_stats_get(port_id, &stats);
+    rte_pktmbuf_mtod_offset
+    struct rte_ether_hdr
+    rte_mempool_get_bulk
+    rte_pktmbuf_reset_headroom
+    struct rte_ipv4_hdr
+    struct rte_udp_hdr
+    RTE_CPU_TO_BE_16
+    rte_port 
+    rte_eth_event_type 
+
+    RTE_SET_USED(param);
+    RTE_ETH_EVENT_MAX
+    RTE_ETH_EVENT_NEW
+    RTE_PORT_HANDLING
+    rte_eth_link 
+    rte_eth_link_get_nowait
+    rte_delay_ms
+    rte_atomic16_cmpset
+    RTE_PORT_STOPPED
+    RTE_PORT_HANDLING
+    rte_eth_dev_configure
+    rte_eth_tx_queue_setup
+    rte_eth_tx_queue_setup
+    rte_eth_rx_queue_setup
+    rte_eth_dev_start
+rte_eth_macaddr_get
+RTE_PORT_ALL
+rte_hash_crc_4byte
+rte_eth_promiscuous_enable
+struct rte_hash_parameters 
+RTE_HASH_EXTRA_FLAGS_RW_CONCURRENCY_LF;
+rte_hash_create
+rte_eal_init
+RTE_ETH_EVENT_UNKNOWN
+RTE_ETH_EVENT_MAX
+rte_eth_dev_callback_register
+RTE_ETH_ALL
+rte_timer_subsystem_init
+rte_ring_create
+rte_socket_id
+rte_ring_create
+rte_eth_add_tx_callback
+rte_eth_add_rx_callback
+RTE_LCORE_FOREACH_SLAVE
+rte_eal_wait_lcore
+rte_be_to_cpu_64
+
+        struct rte_eth_rxconf *rx_conf = &ports[pid].rx_conf[0];
+        struct rte_eth_txconf *tx_conf = &ports[pid].tx_conf[0];
+
+        struct rte_eth_rxconf *rx_conf = &ports[pid].rx_conf[0];
+        struct rte_eth_txconf *tx_conf = &ports[pid].tx_conf[0];
+        rte_eth_rx_queue_info_get
+        rte_eth_tx_queue_info_get
+        rte_port 
+        rte_eth_dev_stop
+        rte_eth_dev_close
+        rte_eth_tx_prepare
