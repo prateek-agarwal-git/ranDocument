@@ -1,29 +1,30 @@
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {2}Tools}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Visual Studio Code}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Vim}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}SSH keys}{2}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Git}{2}{subsection.2.4}%
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Tools}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Visual Studio Code}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Vim}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}SSH keys}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Git}{3}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Terminal Multiplexers}{3}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Important bash utilities/commands}{3}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}gdb}{3}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}C++}{3}{subsection.2.8}%
-\contentsline {section}{\numberline {3}Later}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Session Related Messages}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Cores Layout}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Callback functions}{5}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Latency Calculation Algorithms}{5}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Key Concept}{5}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Storing of Timestamp}{5}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Calculation of Latency}{6}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Why do we need different techniques for control plane and data plane?}{6}{subsubsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.5}DPDK APIs used}{7}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Modes of Operation}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Setup sessions and send data}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Send only control plane traffic}{8}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Send Control Plane and Data Plane Traffic Simultaneously}{8}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Helper Functions}{9}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}QoS Functions}{9}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Data Forwarding Options}{9}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Payload Size}{9}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Files and Folders}{9}{subsection.4.8}%
+\contentsline {subsection}{\numberline {2.6}Important bash utilities/commands}{4}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Debugging}{4}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}C++}{4}{subsection.2.8}%
+\contentsline {section}{\numberline {3}Core Layout}{5}{section.3}%
+\contentsline {section}{\numberline {4}Modes of Operation}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Setup sessions and send data}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Send only control plane traffic}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Send Control Plane and Data Plane Traffic Simultaneously}{6}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Helper Functions}{7}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}QoS Functions}{7}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Run Time Options}{7}{section.5}%
+\contentsline {section}{\numberline {6}Algorithms}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Forwarding Algorithms}{8}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Data Plane}{8}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Control Plane}{8}{subsubsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.2}Latency Calculation Algorithms}{9}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Key Concept}{9}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Storing of Timestamp}{9}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Calculation of Latency}{10}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.4}Why do we need different techniques for control plane and data plane?}{10}{subsubsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.5}Callback functions}{10}{subsubsection.6.2.5}%
+\contentsline {section}{\numberline {7}Files and Folders}{11}{section.7}%
+\contentsline {section}{\numberline {8}DPDK APIs used}{13}{section.8}%

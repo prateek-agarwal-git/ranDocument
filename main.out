@@ -6,24 +6,25 @@
 \BOOKMARK [2][-]{subsection.2.4}{Git}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.5}{Terminal Multiplexers}{section.2}% 7
 \BOOKMARK [2][-]{subsection.2.6}{Important bash utilities/commands}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.7}{gdb}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.7}{Debugging}{section.2}% 9
 \BOOKMARK [2][-]{subsection.2.8}{C++}{section.2}% 10
-\BOOKMARK [1][-]{section.3}{Later}{}% 11
-\BOOKMARK [2][-]{subsection.3.1}{Session Related Messages}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.2}{Cores Layout}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.3}{Callback functions}{section.3}% 14
-\BOOKMARK [2][-]{subsection.3.4}{Latency Calculation Algorithms}{section.3}% 15
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Key Concept}{subsection.3.4}% 16
-\BOOKMARK [3][-]{subsubsection.3.4.2}{Storing of Timestamp}{subsection.3.4}% 17
-\BOOKMARK [3][-]{subsubsection.3.4.3}{Calculation of Latency}{subsection.3.4}% 18
-\BOOKMARK [3][-]{subsubsection.3.4.4}{Why do we need different techniques for control plane and data plane?}{subsection.3.4}% 19
-\BOOKMARK [2][-]{subsection.3.5}{DPDK APIs used}{section.3}% 20
-\BOOKMARK [1][-]{section.4}{Modes of Operation}{}% 21
-\BOOKMARK [2][-]{subsection.4.1}{Setup sessions and send data}{section.4}% 22
-\BOOKMARK [2][-]{subsection.4.2}{Send only control plane traffic}{section.4}% 23
-\BOOKMARK [2][-]{subsection.4.3}{Send Control Plane and Data Plane Traffic Simultaneously}{section.4}% 24
-\BOOKMARK [2][-]{subsection.4.4}{Helper Functions}{section.4}% 25
-\BOOKMARK [2][-]{subsection.4.5}{QoS Functions}{section.4}% 26
-\BOOKMARK [2][-]{subsection.4.6}{Data Forwarding Options}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.7}{Payload Size}{section.4}% 28
-\BOOKMARK [2][-]{subsection.4.8}{Files and Folders}{section.4}% 29
+\BOOKMARK [1][-]{section.3}{Core Layout}{}% 11
+\BOOKMARK [1][-]{section.4}{Modes of Operation}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Setup sessions and send data}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Send only control plane traffic}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.3}{Send Control Plane and Data Plane Traffic Simultaneously}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.4}{Helper Functions}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.5}{QoS Functions}{section.4}% 17
+\BOOKMARK [1][-]{section.5}{Run Time Options}{}% 18
+\BOOKMARK [1][-]{section.6}{Algorithms}{}% 19
+\BOOKMARK [2][-]{subsection.6.1}{Forwarding Algorithms}{section.6}% 20
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Data Plane}{subsection.6.1}% 21
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Control Plane}{subsection.6.1}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Latency Calculation Algorithms}{section.6}% 23
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Key Concept}{subsection.6.2}% 24
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Storing of Timestamp}{subsection.6.2}% 25
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Calculation of Latency}{subsection.6.2}% 26
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Why do we need different techniques for control plane and data plane?}{subsection.6.2}% 27
+\BOOKMARK [3][-]{subsubsection.6.2.5}{Callback functions}{subsection.6.2}% 28
+\BOOKMARK [1][-]{section.7}{Files and Folders}{}% 29
+\BOOKMARK [1][-]{section.8}{DPDK APIs used}{}% 30
